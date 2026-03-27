@@ -1,0 +1,14 @@
+{
+  "name": "memaware",
+  "version": "0.1.0",
+  "description": "Benchmark for measuring memory awareness in AI agents",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "run": "node run.mjs",
+    "score": "node score.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}

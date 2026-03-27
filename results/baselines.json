@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "version": "v4",
+    "dataset": "3-month pruned (Apr-Jun 2023)",
+    "sessions": 1307,
+    "sessionsPerDay": 14,
+    "questions": 900,
+    "questionTypes": { "easy": 300, "medium": 300, "hard": 300 },
+    "leakingFilter": "30% keyword overlap threshold",
+    "answerModel": "kimi-k2p5 (Fireworks)",
+    "judgeModel": "gpt-5.1"
+  },
+  "no-memory": {
+    "overall": { "accuracy": 0.008, "total": 900, "correct": 7 },
+    "easy": { "accuracy": 0.010, "total": 300, "correct": 3 },
+    "medium": { "accuracy": 0.007, "total": 300, "correct": 2 },
+    "hard": { "accuracy": 0.007, "total": 300, "correct": 2 },
+    "medianTokensAll": { "easy": 628, "medium": 907, "hard": 1130 },
+    "responseTypes": { "abstained": 893, "correct": 7 }
+  },
+  "bm25-search": {
+    "overall": { "accuracy": 0.028, "total": 900, "correct": 25 },
+    "easy": { "accuracy": 0.047, "total": 300, "correct": 14 },
+    "medium": { "accuracy": 0.017, "total": 300, "correct": 5 },
+    "hard": { "accuracy": 0.020, "total": 300, "correct": 6 },
+    "medianTokensAll": { "easy": 4327, "medium": 4406, "hard": 4551 },
+    "responseTypes": { "abstained": 859, "correct": 22, "hallucinated": 10, "partial": 9 }
+  },
+  "bm25-vector-search": {
+    "overall": { "accuracy": 0.034, "total": 900, "correct": 31 },
+    "easy": { "accuracy": 0.060, "total": 300, "correct": 18 },
+    "medium": { "accuracy": 0.037, "total": 300, "correct": 11 },
+    "hard": { "accuracy": 0.007, "total": 300, "correct": 2 },
+    "medianTokensAll": { "easy": 1625, "medium": 1682, "hard": 1756 },
+    "responseTypes": { "abstained": 845, "correct": 31, "hallucinated": 15, "partial": 8, "error": 1 }
+  }
+}
