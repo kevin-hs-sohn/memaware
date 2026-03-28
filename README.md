@@ -260,12 +260,14 @@ MemAware is complementary to existing benchmarks. Use LoCoMo or LongMemEval to m
 
 ## Citation
 
+**[Technical Report (PDF)](paper/memaware.pdf)** — MemAware: Benchmarking Implicit Context Surfacing in AI Agent Memory (Hyeon Seok Son, 2026)
+
 If you use MemAware in your research, please cite:
 
 ```bibtex
-@misc{memaware2026,
-  title={MemAware: Benchmarking Memory Awareness in AI Agents},
-  author={Kevin Sohn},
+@misc{son2026memaware,
+  title={MemAware: Benchmarking Implicit Context Surfacing in AI Agent Memory},
+  author={Son, Hyeon Seok},
   year={2026},
   url={https://github.com/kevin-hs-sohn/memaware}
 }
