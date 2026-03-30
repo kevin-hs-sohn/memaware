@@ -1,6 +1,6 @@
 # MemAware
 
-Benchmark for measuring **memory awareness** in AI agents — the ability to surface relevant past context without being asked.
+Benchmark for **proactive memory retrieval** in AI agents — the ability to surface relevant past context without being asked, as opposed to reactive retrieval (RAG) which only searches when prompted.
 
 ## Why This Benchmark Exists
 
